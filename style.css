@@ -1,0 +1,62 @@
+.keys{
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+    background-color: rgb(47, 47, 47);
+    border-radius: 1rem;
+    padding: 10px;
+  
+    margin-top: 2px;
+    
+    
+   
+}
+button{
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+    border-radius: 30%;
+    border: none;
+    background-color: rgb(85, 83, 83);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+    
+  
+}
+
+button:hover{
+    background-color: rgb(73, 72, 72);
+}
+button:active{
+    background-color: rgb(108, 105, 105);
+}
+.btn:hover{
+    background-color: rgb(235, 170, 6);
+}
+.btn:active{
+    background-color: rgb(255, 202, 69);
+}
+#dis input{
+    padding: 10px;
+  height: 80px;
+  width: 95%;
+  background-color: rgb(45, 44, 44);
+  border-radius: 1rem;
+  font-size: 30px;
+  color: white;
+   
+   
+ 
+
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  margin: 10px;
+    height: 100vh;
+    width: 100%;
+}
+.btn{
+    background-color: rgb(221, 140, 8);
+}
